@@ -1,0 +1,321 @@
+.box{
+	background-color: #ffffd5;
+	margin: 0 auto;
+	width: 10.0rem;
+}
+.top{
+	padding: 0 0.622222rem;
+	width: 10.0rem;
+	box-sizing: border-box; 
+	/*margin: 0 auto;*/
+	/*background-color: #ffffd5;*/
+}
+.top-title{
+	height: 1.164444rem;
+}
+.top-title h2{
+	height: 1.164444rem;
+	color: #e60012;
+	font-size: 0.497778rem;
+	line-height: 1.164444rem;
+	text-align: center;
+	float: left;
+}
+.top-title div{
+	height: 1.164444rem;
+	float: right;
+}
+.top-title span{
+	display: block;
+	height: 1.164444rem;
+	line-height: 1.164444rem;
+	float: left;
+	font-size: 0.311111rem;
+	margin-left: 0.151111rem;
+}
+.top-title span:last-child{
+	font-size: 0.373333rem;
+	color: #e60012;
+}
+.top-title span:nth-child(2){
+	margin-left: 0.017778rem;
+}
+.top-title span:first-child{
+	width: 0.888889rem;
+	height: 1.164444rem;
+	background-image: url("../img/icon_4.png");
+	background-size: 0.462222rem 0.382222rem;
+	background-repeat: no-repeat;
+	background-position: 0.444444rem 0.4rem;
+}
+
+.top-content{
+	height: 3.884444rem;
+}
+.top-content ul{
+	height: 3.884444rem;
+}
+.top-content li{
+	width: 4.222222rem;
+	height: 1.715556rem;
+	float: left;
+	background-color: #fa3530;
+	padding-left: 1.617778rem;
+	box-sizing: border-box;
+	margin: 0 0.31rem 0.204444rem 0;
+	border-radius: 0.088889rem;
+}
+.top-content li:nth-child(2n){
+	margin-right: 0;
+}
+.top-content li:nth-child(1){
+	background-image: url("../img/icon_1.png");
+	background-size: 0.995556rem 1.2rem;
+	background-repeat: no-repeat;
+	background-position: 0.231111rem 0.266667rem;
+}
+.top-content li:nth-child(2){
+	background-image: url("../img/icon_3.png");
+	background-size: 0.995556rem 0.968889rem;
+	background-repeat: no-repeat;
+	background-position: 0.311111rem 0.382222rem;
+}
+.top-content li:nth-child(3){
+	background-image: url("../img/icon_2.png");
+	background-size: 1.2rem 1.2rem;
+	background-repeat: no-repeat;
+	background-position: 0.16rem 0.248889rem;
+}
+.top-content li p{
+	font-size: 0.426667rem;
+	height: 0.666667rem;
+	line-height: 0.906667rem;
+	color: #ffffff;
+	font-family: "Arial Black";
+}
+.top-content li p span{
+	font-size: 0.835556rem;
+	display: inline-block;
+	height: 0.666667rem; 
+	line-height: 0.817778rem;
+	font-family: "Arial Black";
+}
+.top-content li:nth-child(3) p{
+	height: 1.715556rem;
+	line-height: 1.715556rem;
+	text-indent: 0.551111rem;
+}
+.top-content li:nth-child(4){
+	padding: 0;
+	/*background-color: unset;*/
+	background-color: #ffffd5;
+	border: 0.035556rem dashed #f9a09e;
+}
+.top-content li:nth-child(4) p{
+	height: 1.715556rem;
+	line-height: 1.715556rem;
+	text-align: center;
+	color: #f9a09e;
+}
+
+
+
+/*中间部分*/
+.middle{
+	width: 10.0rem;
+	height: 4.284444rem;
+	/*background-color: #f51829;*/
+}
+/*轮播图*/
+.mid-box{
+	width: 10.0rem;
+	height: 4.284444rem;
+	position: relative;
+	overflow: hidden;
+}
+.wrap{
+	width: 30.0rem;
+	height: 4.284444rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s;
+}
+.wrap li{
+	width: 10.0rem;
+	height: 4.284444rem;
+	float: left;
+	background-color: #f51829;
+}
+.wrap li h2{
+	height: 1.315556rem;
+	line-height: 1.315556rem;
+	font-size: 0.497778rem;
+	text-indent: 0.8rem;
+	color: #ffffff;
+}
+.wrap li h2 span{
+	font-size: 0.728889rem;
+	color: #fff000;
+}
+.wrap>li>div{
+	width: 10.0rem;
+	height: 2.248889rem;
+	margin-left: 0.382222rem;
+	box-sizing: border-box;
+	padding-left: 0.382222rem;
+}
+.wrap>li>div>div{
+	width: 3.075556rem;
+	height: 2.248889rem;
+	float: left;
+	position: relative;
+}
+.wrap>li>div>div img{
+	width: 2.186667rem;
+	height: 2.248889rem;
+}
+.wrap>li>div>div>span{
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	border-radius: 50%;
+	background-color: #ffffff;
+	font-size: 0.266667rem;
+	line-height: 0.56rem;
+	color: #f51829;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	left: 1.777778rem;
+	top: 0.115556rem;
+}
+.wrap>li>div>div>span>span{
+	font-size: 0.311111rem;
+}
+
+/*换页按钮*/
+.btnR{
+	display: block;
+	width: 0.693333rem;
+	height: 0.817778rem;
+	background-image: url("../img/icon_10.png");
+	position: absolute;
+	right: 0;
+	top: 1.777778rem;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+/*分页器*/
+.paging{
+	width: 0.995556rem;
+	height: 0.222222rem;
+	position: absolute;
+	left: 4.506667rem;
+	bottom: 0.16rem;
+}
+.paging li{
+	float: left;
+	width: 0.222222rem;
+	height: 0.222222rem;
+	border-radius: 50%;
+	background-color: #cdcbcb;
+	margin-right: 0.16rem;
+	cursor: pointer;
+}
+.paging li:last-child{
+	margin-right: 0;
+}
+.paging .paging-act{
+	background-color: #534c4c;
+}
+
+
+/*底部开始*/
+.bottom{
+	width: 10.0rem;
+}
+.bottom-title{
+	width: 10.0rem;
+	height: 1.608889rem;
+	position: relative;
+}
+.bottom-title img{
+	width: 5.484444rem;
+	height: 1.12rem;
+	margin-left: 0.506667rem;
+	margin-top: 0.213333rem;
+}
+.bottom-title h2{
+	font-size: 0.568889rem;
+	color: #ffffff;
+	position: absolute;
+	left: 2.16rem;
+	top: 0.533333rem;
+}
+
+.bottom-content{
+	width: 10.0rem;
+	height: 5.111111rem;
+}
+.bottom-content ul{
+	width: 8.595556rem;
+	margin-left: 0.702222rem;
+}
+
+.bottom-content ul li{
+	width: 8.595556rem;
+	height: 1.253333rem;
+	border-radius: 0.088889rem;
+	margin-bottom: 0.213333rem;
+	position: relative;
+	/*text-align: center;
+	line-height: 1.253333rem;
+	font-size: 0.426667rem;
+	color: #ffffff;*/
+}
+.bottom-content ul li p{
+	text-align: center;
+	line-height: 1.253333rem;
+	font-size: 0.426667rem;
+	color: #ffffff;
+}
+.bottom-content ul li img{
+	width: 1.342222rem;
+	height: 1.004444rem;
+	position: absolute;
+	right: 0.231111rem;
+	top: 0.133333rem;
+}
+.bottom-content ul li:nth-child(1){
+	background-color: #f3aa1f;
+	background-image: url("../img/icon_13.png");
+	background-size: 1.875556rem 1.724444rem;
+	background-repeat: no-repeat;
+	background-position: -0.177778rem -0.177778rem;
+}
+.bottom-content ul li:nth-child(2){
+	background-color: #f6510f;
+	background-image: url("../img/icon_14.png");
+	background-size: 2.035556rem 1.857778rem;
+	background-repeat: no-repeat;
+	background-position: -0.533333rem -0.088889rem;
+}
+.bottom-content ul li:nth-child(3){
+	background-color: #e9221d;
+	background-image: url("../img/icon_15.png");
+	background-size: 1.68rem 1.76rem;
+	background-repeat: no-repeat;
+	background-position: -0.177778rem 0;
+}
+
+
+
+
+
+
+
+
+
+
