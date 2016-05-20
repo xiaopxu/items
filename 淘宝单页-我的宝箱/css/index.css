@@ -22,6 +22,7 @@
 	float: left;
 }
 .top-title div{
+	width: 5.244444rem;
 	height: 1.164444rem;
 	float: right;
 }
@@ -32,6 +33,7 @@
 	float: left;
 	font-size: 0.311111rem;
 	margin-left: 0.151111rem;
+	/*float: right;*/
 }
 .top-title span:last-child{
 	font-size: 0.373333rem;
@@ -41,12 +43,13 @@
 	margin-left: 0.017778rem;
 }
 .top-title span:first-child{
-	width: 0.888889rem;
+	width: 0.488889rem;
 	height: 1.164444rem;
 	background-image: url("../img/icon_4.png");
 	background-size: 0.462222rem 0.382222rem;
 	background-repeat: no-repeat;
-	background-position: 0.444444rem 0.4rem;
+	background-position: 0.044444rem 0.4rem;
+	margin-left: 0;
 }
 
 .top-content{
@@ -55,6 +58,10 @@
 .top-content ul{
 	height: 3.884444rem;
 }
+/*.top-content ul a{
+	display: block;
+	float: left;
+}*/
 .top-content li{
 	width: 4.222222rem;
 	height: 1.715556rem;
@@ -65,22 +72,22 @@
 	margin: 0 0.31rem 0.204444rem 0;
 	border-radius: 0.088889rem;
 }
-.top-content li:nth-child(2n){
+.top-content a:nth-child(2n) li{
 	margin-right: 0;
 }
-.top-content li:nth-child(1){
+.top-content a:nth-child(1) li{
 	background-image: url("../img/icon_1.png");
 	background-size: 0.995556rem 1.2rem;
 	background-repeat: no-repeat;
 	background-position: 0.231111rem 0.266667rem;
 }
-.top-content li:nth-child(2){
+.top-content a:nth-child(2) li{
 	background-image: url("../img/icon_3.png");
 	background-size: 0.995556rem 0.968889rem;
 	background-repeat: no-repeat;
 	background-position: 0.311111rem 0.382222rem;
 }
-.top-content li:nth-child(3){
+.top-content a:nth-child(3) li{
 	background-image: url("../img/icon_2.png");
 	background-size: 1.2rem 1.2rem;
 	background-repeat: no-repeat;
@@ -100,18 +107,18 @@
 	line-height: 0.817778rem;
 	font-family: "Arial Black";
 }
-.top-content li:nth-child(3) p{
+.top-content a:nth-child(3) li p{
 	height: 1.715556rem;
 	line-height: 1.715556rem;
 	text-indent: 0.551111rem;
 }
-.top-content li:nth-child(4){
+.top-content a:nth-child(4) li{
 	padding: 0;
 	/*background-color: unset;*/
 	background-color: #ffffd5;
 	border: 0.035556rem dashed #f9a09e;
 }
-.top-content li:nth-child(4) p{
+.top-content a:nth-child(4) li p{
 	height: 1.715556rem;
 	line-height: 1.715556rem;
 	text-align: center;
@@ -174,6 +181,7 @@
 .wrap>li>div>div img{
 	width: 2.186667rem;
 	height: 2.248889rem;
+	cursor: pointer;
 }
 .wrap>li>div>div>span{
 	display: block;
@@ -210,7 +218,7 @@
 /*分页器*/
 .paging{
 	width: 0.995556rem;
-	height: 0.222222rem;
+	height: 0.266667rem;
 	position: absolute;
 	left: 4.506667rem;
 	bottom: 0.16rem;
@@ -288,21 +296,21 @@
 	right: 0.231111rem;
 	top: 0.133333rem;
 }
-.bottom-content ul li:nth-child(1){
+.bottom-content ul a:nth-child(1) li{
 	background-color: #f3aa1f;
 	background-image: url("../img/icon_13.png");
 	background-size: 1.875556rem 1.724444rem;
 	background-repeat: no-repeat;
 	background-position: -0.177778rem -0.177778rem;
 }
-.bottom-content ul li:nth-child(2){
+.bottom-content ul a:nth-child(2) li{
 	background-color: #f6510f;
 	background-image: url("../img/icon_14.png");
 	background-size: 2.035556rem 1.857778rem;
 	background-repeat: no-repeat;
 	background-position: -0.533333rem -0.088889rem;
 }
-.bottom-content ul li:nth-child(3){
+.bottom-content ul a:nth-child(3) li{
 	background-color: #e9221d;
 	background-image: url("../img/icon_15.png");
 	background-size: 1.68rem 1.76rem;
